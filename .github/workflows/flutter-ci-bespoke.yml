@@ -6,7 +6,7 @@ on:
 #    paths-ignore:
 #    - "docs/**"
 #    - "README.md"
-#  push:
+  push:
 #    branches:
 #      - master
 #    paths-ignore:
@@ -19,7 +19,7 @@ on:
 
 jobs:
   run-ci:
-    uses: ./.github/workflows/flutter-build.yml
+    uses: ./.github/workflows/flutter-build-bespoke.yml
     with:
 #      upload-artifact: false
       upload-artifact: true
