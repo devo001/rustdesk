@@ -7086,8 +7086,8 @@ dependencies = [
 ]
 
 [[package]]
-name = "rustdesk"
-version = "1.5.0"
+name = "tektonic"
+version = "1.5.03"
 dependencies = [
  "android-wakelock",
  "android_logger",
