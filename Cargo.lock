@@ -7087,7 +7087,7 @@ dependencies = [
 
 [[package]]
 name = "tektonic"
-version = "1.5.03"
+version = "1.5.0"
 dependencies = [
  "android-wakelock",
  "android_logger",
