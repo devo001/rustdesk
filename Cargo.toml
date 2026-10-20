@@ -255,7 +255,7 @@ webrtc-sctp = { git = "https://github.com/rustdesk-org/webrtc", rev = "49c89bd8d
 
 [package.metadata.winres]
 LegalCopyright = "Copyright © 2026 TekTonic. All rights reserved."
-ProductName = "RustDesk"
+ProductName = "TekTonic"
 FileDescription = "Tektonic Remote Support"
 OriginalFilename = "rustdesk.exe"
 
@@ -274,8 +274,8 @@ docopt = "1.1"
 tokio = { version = "1.44", features = ["test-util"] }
 
 [package.metadata.bundle]
-name = "RustDesk"
-identifier = "com.carriez.rustdesk"
+name = "TekTonic"
+identifier = "za.co.tektonic"
 icon = ["res/32x32.png", "res/128x128.png", "res/128x128@2x.png"]
 osx_minimum_system_version = "10.14"
 
